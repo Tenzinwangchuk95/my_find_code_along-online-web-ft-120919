@@ -5,6 +5,4 @@ def my_find(collection)
     my_find([]) do |x|
       counter+=1
     end
-    expect(counter).to eq(0)
-  end
 end

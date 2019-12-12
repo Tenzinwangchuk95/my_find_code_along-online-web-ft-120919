@@ -22,7 +22,7 @@ describe "#my_find" do
       yielded.push number
     end
     expect(yielded).to eq([1])
-  #end
+  end
 
   it "returns the elements from the array when the block condition is met" do
     expect(my_find(collection) {|i| i % 3 == 0 && i % 5 == 0 }).to eq(15)
